@@ -8,7 +8,7 @@
     <ProjectGuid>{ED349928-55FE-41FE-8C68-53FBCD51D1C4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CSharpDemo.Lang.Thread</RootNamespace>
+    <RootNamespace>CSharpDemo.Lang.Threading</RootNamespace>
     <AssemblyName>CSharpDemo.Lang.Thread</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -40,9 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InterLockedDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThreadBasic.cs" />
+    <Compile Include="ThreadStateDemo.cs" />
     <Compile Include="ThreadStatic.cs" />
+    <Compile Include="VolatileDemo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

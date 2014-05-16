@@ -23,7 +23,10 @@ namespace CSharpDemo.Lang
 
         private static void ThreadDemoTest()
         {
-            ThreadStatic.testThreadStatic();
+            //ThreadStatic.testThreadStatic();
+            //InterLockedDemo.testAtomicAdd();
+            VolatileDemo.TestVolatile();
         }
+
     }
 }
