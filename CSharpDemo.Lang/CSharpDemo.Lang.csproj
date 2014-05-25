@@ -48,6 +48,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CSharpDemo.Lang.Collection.Concurrent\CSharpDemo.Lang.Collection.Concurrent.csproj">
+      <Project>{F3629897-09FD-4DBA-A9E3-B832201D6965}</Project>
+      <Name>CSharpDemo.Lang.Collection.Concurrent</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CSharpDemo.Lang.Thread\CSharpDemo.Lang.Threading.csproj">
       <Project>{ED349928-55FE-41FE-8C68-53FBCD51D1C4}</Project>
       <Name>CSharpDemo.Lang.Threading</Name>

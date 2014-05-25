@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using CSharpDemo.Lang.Threading;
+using CSharpDemo.Lang.Collection.Concurrent;
 
 namespace CSharpDemo.Lang
 {
@@ -10,7 +11,7 @@ namespace CSharpDemo.Lang
     {
         static void Main(string[] args)
         {
-            ThreadDemoTest();
+            CollectionConcurrentTest();
         }
 
         private static void DelegateDemoTest()
@@ -28,5 +29,10 @@ namespace CSharpDemo.Lang
             VolatileDemo.TestVolatile();
         }
 
+        private static void CollectionConcurrentTest()
+        {
+            //BlockingCollectionDemo.Test();
+            ConcurrentBagDemo.Test();
+        }
     }
 }
