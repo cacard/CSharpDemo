@@ -15,4 +15,4 @@ C#写的一些测试代码。从04年接触C#，主要是做Web/Windows服务/�
 * ASP.NET MVC
 * Socket
 * WCF/WebService
-* SilverLigth
+* Silverlight
